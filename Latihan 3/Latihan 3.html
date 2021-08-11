@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar Form</title>
+    </head>
+    <body>
+        <form>
+            <table border="0" align="left">
+            <tr>
+            <td><label for="nama">Nama</label></td>
+            <td> : </td>
+            <td><input type="text" size="20" name="nama" id="nama"/></td>
+            </tr>
+            <tr>
+            <td><label for="Tempat Tanggal Lahir">Tempat Tanggal Lahir </label></td>
+            <td> : </td>
+            <td><input type="text" size="20" name="tempat tanggal lahir" id="tempat tanggal lahir"></td>
+            </tr>
+            <tr>
+            <td><label for="Jurusan">Jurusan</label></td>
+            <td> : </td>
+            <td><select name="jurusan" id="jurusan">
+                <option value="">Pilih Jurusan Disini</option>
+                <option value="RPL">Rekayasa Perangkat Lunak</option>
+                <option value="TKJ">Teknik Komputer dan Jaringan</option>
+                <option value="Multimedia">Multimedia</option></td>
+            </select>
+            </tr>
+            <tr>
+            <td><label for="msg">Alamat</label></td>
+            <td> : </td>
+            <td><textarea name="msg" cols="30" rows="1"></textarea></td>
+            </tr>
+            <tr>
+            <td><label for="jenis kelamin">Jenis Kelamin</label></td>
+            <td> : </td>
+            <td><input type="radio" name="Laki Laki" id="Laki Laki">
+            <label for="Laki Laki">Laki Laki</label>
+            <input type="radio" name="Perempuan" id="Perempuan">
+            <label for="Perempuan">Perempuan</label></td>
+            </tr>
+            <tr>
+            <td><label for="agama">Agama</label></td>
+            <td> : </td>
+            <td><select name="agama" id="agama">
+                <option value="">Pilih Agama</option>
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Katolik">Katolik</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Buddha">Buddha</option>
+                <option value="Konghucu">Konghucu</option></td>
+            </select>
+            </tr>
+            <tr>
+            <td><label for="no telepon">No Telepon</label></td>
+            <td> : </td>
+            <td><input type="text" size="20" name="no telepon" id="no telepon"></td>
+            </tr>
+            <tr>
+            <td><label for="hobby">Hobby</label></td>
+            <td> : </td>
+            <td><input type="checkbox" name="Hobby[]" id="Memancing" value="Memancing">
+            <label for="Memancing">Memancing</label>
+            <input type="checkbox" name="Hobby[]" id="Baca Buku" value="Baca Buku">
+            <label for="Baca Buku">Baca Buku</label>
+            <input type="checkbox" name="Hobby[]" id="Memasak" value="Memasak">
+            <label for="Memasak">Memasak</label></td>
+            </tr>
+        </form>
+    </body>
+</html>
